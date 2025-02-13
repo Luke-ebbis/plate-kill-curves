@@ -1,0 +1,10 @@
+.Rproj.user
+data
+results
+.Rhistory
+.RData
+.Ruserdata
+
+# pixi environments
+.pixi
+*.egg-info

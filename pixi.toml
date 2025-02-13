@@ -1,0 +1,34 @@
+[project]
+authors = ["Sibbe Bakker <sibbe.bakker@wur.nl>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "Kill curve"
+platforms = ["linux-64", "win-64"]
+version = "0.1.0"
+
+[tasks]
+## Tasks
+##
+## Usage ...
+## $ pixi run <cmd>
+##
+## shell
+##  enter a shell session with the dependencies of the
+##  workshop installed.
+shell = "pixi run shell; echo "
+##
+## start
+##  Start the jupyter notbook for the tutorial on port 8888
+##
+start = "jupyter lab workshop.ipynb"
+## help
+##  This text.
+##
+help = "rg '^##' pixi.toml | sd '##' '' "
+
+[dependencies]
+sd = "*"
+r-base = ">=4.4.2,<4.5"
+r-tidyverse = ">=2.0.0,<3"
+r-openxlsx = ">=4.2.8,<5"
+r-argparse = ">=2.2.5,<3"

@@ -1,0 +1,5 @@
+sample identifier,type,parental strain,storage date,sample storage temperature,storage condition,growth condition,reference,
+CEA10 (SSI-2),strain,not applicable (clinical isolate),2023-07-23,-80 ºC,Spores in 25% (w/v) glycerol,Malt extract agar,https://doi.org/10.1128/jcm.31.6.1547-1554.1993, https://doi.org/10.1093/mmy/myaa075
+delta pefA (T4-9),strain,CEA10 ,2023-07-23,-80 ºC,Spores in 25% (w/v) glycerol,Malt extract agar,Martin Weichert (unpublished results),
+delta pefA (T8-11),strain,CEA10 ,2023-08-23,-80 ºC,Spores in 25% (w/v) glycerol,Malt extract agar,Martin Weichert (unpublished results),
+delta pefA (T8-19),strain,CEA10 ,2023-08-23,-80 ºC,Spores in 25% (w/v) glycerol,Malt extract agar,Martin Weichert (unpublished results),
