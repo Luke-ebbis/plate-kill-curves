@@ -1,4 +1,4 @@
-# martin-data
+# Kill Curves
 
 ## Data entry
 
@@ -75,5 +75,12 @@ You'll need the [`pixi`](https://prefix.dev/) package manager, this is compatibl
 
 ```
 pixi run help
+```
+
+You make the killcurves using
+
+```
+# read from data/ save to results/
+pixi run killcurve data results
 ```
 
